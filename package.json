@@ -1,0 +1,35 @@
+{
+  "name": "stackexchange-node",
+  "version": "1.0.0",
+  "description": "Node.js implementation of the stackexchange/stackoverflow API",
+  "main": "./lib/stackexchange",
+  "scripts": {
+    "test": "NODE_ENV=test ./node_modules/.bin/mocha $(find test -name '*.test.js')"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:nwhitmont/stackexchange-node.git"
+  },
+  "dependencies": {
+    "devnull": "0.0.12",
+    "nconf": "^0.8.4",
+    "request": "^2.81.0",
+    "utile": "^0.3.0"
+  },
+  "devDependencies": {
+    "mocha": "2.5.x",
+    "chai": "3.5.x",
+    "sinon": "1.17.x",
+    "sinon-chai": "2.8.x",
+    "pre-commit": "1.1.x"
+  },
+  "keywords": [
+    "stackoverflow",
+    "stackexchange",
+    "api",
+    "questions",
+    "answers"
+  ],
+  "author": "Nils Whitmont",
+  "license": "MIT"
+}
