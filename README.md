@@ -1,5 +1,5 @@
 # stackexchange-node
-NPM module for StackExchange API + Node.js
+NPM module for StackExchange API + Node.js (actively maintained version!)
 
 Installation
 ----
